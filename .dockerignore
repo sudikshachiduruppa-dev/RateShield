@@ -1,0 +1,24 @@
+# Build outputs
+target/
+build/
+
+# Local configuration and credentials (must never be copied into container)
+local.properties
+local.properties.example
+.env
+.env.*
+!.env.example
+
+# Frontend (deployed separately or built independently)
+frontend/
+
+# Version control and IDE files
+.git/
+.gitignore
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+HELP.md
+*.log
